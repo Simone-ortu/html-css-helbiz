@@ -1,14 +1,15 @@
 /* Mainrules */
-.container{
+/* .container{
   width:1270px;
   background-color: lightblue;
   margin: 0 auto;
-}
-.row [class*="col-"]{
-  height: 150px;
+} */
+.header-top .row [class*="col-"]{
+ height: 75px;
 }
 body{
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 ul{
   list-style: none;
@@ -16,6 +17,107 @@ ul{
 ul li{
   display: inline-block;
 }
+ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-
+.d-ib{
+  display: inline-block;
+}
+.fs-25px{
+  font-size: 25px;
+}
+.tt-upper{
+  text-transform: uppercase;
+}
+.pt-25{
+  padding-top: 25px;
+}
+.pb-25{
+  padding-bottom: 25px;
+}
+.pr-25{
+  padding-right: 25px;
+}
+.grey{
+  background-color: #FAFAFA;
+}
 /* header */
+.logo{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+ul.topbar li a{
+  color: black;
+  vertical-align: middle;
+  line-height: 75px;
+  padding-left: 10px;
+}
+
+ul.langbar li a{
+  color: black;
+  vertical-align: middle;
+  line-height: 75px;
+  padding-left: 10px;
+}
+ul.langbar :not(:last-child) a{
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+@media screen  and (max-width:992px){
+  .fa-bars{
+    font-size: 20px;
+    margin-top: 25px;
+    color: black;
+  }
+}
+/* Jumbo */
+.jumbotron{
+  background-image: url('../img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.jumbotron h1 {
+  font-size: 32px;
+}
+
+.jumbotron p {
+  margin: 10px 0;
+}
+
+.jumbotron .testo {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px){
+  .jumbotron h1 {
+    font-size: 26px;
+  }
+}
+#products{
+  margin: 75px 0;
+}
+#products img{
+  width: 85%;
+}
+h2{
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media screen  and (max-width:992px){
+  .container{
+    width: 80%;
+  }
+}

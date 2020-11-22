@@ -9,49 +9,52 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
 <body>
   <!-- header -->
   <header>
     <!-- headerTop -->
     <div class="header-top">
-      <div class="container debug">
+      <div class="container ">
         <div class="row">
           <!-- Homelink -->
-          <div class="col-lg-5">
-            <a href="#"><img src="img/helbiz-logo.svg" alt=""></a>
+          <div class="col-lg-5 pos-r">
+            <a href="#"><img class="logo pos-a" src="img/helbiz-logo.svg" alt=""></a>
 
           </div>
           <!-- /Homelink -->
           <!-- Topbar -->
           <div class="col-lg-7">
-            <div class="row">
+            <div class="lg-display-none md-display-block text-right mr-10">
+              <a href="#"><i class="fas fa-bars"></i></a>
+            </div>
+            <div class="row md-display-none">
 
               <!-- Topbar -->
               <div class="col-lg-9">
-                <nav class="topbar">
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <nav>
+                  <ul class="topbar">
+                    <li><a href="#">helbizgo</a></li>
+                    <li><a href="#">helbizcar</a></li>
+                    <li><a href="#">helbizair</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">cities</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><a href="#">shop</a></li>
                   </ul>
                 </nav>
               </div>
               <!-- /Topbar -->
               <!-- Langbar -->
-              <div class="col-lg-3">
-                <nav class="langbar">
-                  <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+              <div class="col-lg-3 md-display-none xs-display-none">
+                <nav >
+                  <ul class="langbar">
+                    <li><a href="#">Eng</a></li>
+                    <li><a href="#">Ita</a></li>
+                    <li><a href="#">Esp</a></li>
                   </ul>
                 </nav>
-
               </div>
               <!-- Langbar -->
             </div>
@@ -59,16 +62,61 @@
           <!-- /Topbar -->
         </div>
       </div>
-
     </div>
     <!-- /headerTop -->
+
+
     <!-- Jumbotron -->
     <div class="jumbotron">
+      <div class="testo text-center">
+        <h1>Shared Mobility of Tomorrow</h1>
+        <p>Bringing the future of shared mobility to the streets of the world</p>
+        <a href=""><img src="img/app-store-badge.svg" alt="App store">
+        </a>
+        <a href=""><img src="img/google-play-badge.svg" alt="google play"></a>
+      </div>
 
     </div>
     <!-- /Jumbotron -->
   </header>
   <!-- /header -->
+  <!-- Main -->
+  <main>
+    <!-- Products -->
+    <section id="products">
+      <div class="row container text-center">
+        <div class="col-lg-5 col-md-12 col-lg-offset-1 m-20 grey">
+          <div class="prod-text mt-40">
+            <h2>helbiz</h2><p class="d-ib fs-25px tt-upper">go</p>
+            <p class="pt-25 pb-25">Seamless E-scooter sharing globally.</p>
+            <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <img src="img/helbizgo@2x.333fed1.png" class="pb-25" alt="Monopattino">
+        </div>
+        <div class="col-lg-5 col-md-12  m-20 grey">
+          <div class="prod-text mt-40">
+            <h2>helbiz</h2><p class="d-ib fs-25px tt-upper">bike</p>
+            <p class="pt-25 pb-25">Next generation of electric city bikes.</p>
+            <a href="#">Learn More <i class="fas fa-chevron-right"></i></a>
+          </div>
+          <img src="img/helbizbike@2x.d9f68fe.png" class="pb-25" alt="Monopattino">
+        </div>
+      </div>
+
+    </section>
+    <!-- /Products -->
+    <!-- Phone -->
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+    <section>
+
+    </section>
+  </main>
+  <!-- /Main -->
 
 </body>
 </html>
