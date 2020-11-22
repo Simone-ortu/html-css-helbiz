@@ -1,9 +1,4 @@
 /* Mainrules */
-/* .container{
-  width:1270px;
-  background-color: lightblue;
-  margin: 0 auto;
-} */
 .header-top .row [class*="col-"]{
  height: 75px;
 }
@@ -111,13 +106,59 @@ ul.langbar :not(:last-child) a{
 #products img{
   width: 85%;
 }
-h2{
+#products .col-lg-6{
+  width: 45%;
+}
+#products a{
+  text-decoration: none;
+}
+#products h2{
   display: inline-block;
   font-weight: 600;
   text-transform: uppercase;
 }
 @media screen  and (max-width:992px){
-  .container{
+  #products .container{
     width: 80%;
+    margin: 20px auto;
+    padding: 0;
+  }
+  #products .col-md-12{
+    margin: 20px 20px;
+    width: 100%;
+  }
+
+}
+#mobility .container{
+  height: 500px;
+  background-image: url('../img/scooter.f0a0397.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mobility .mob-text{
+  top: 25%;
+  left: 60%;
+  padding-right: 180px;
+  text-align: center;
+  color: white;
+}
+#mobility h2{
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+#mobility p{
+  padding-bottom: 30px;
+}
+#mobility a{
+  text-decoration: none;
+  color: white;
+}
+@media screen  and (max-width:992px){
+  #mobility .mob-text{
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
   }
 }
