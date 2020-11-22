@@ -219,4 +219,15 @@ ul.langbar :not(:last-child) a{
 footer{
   height: 700px;
   background-color: black;
+  margin-top: 40px;
+}
+footer .row .col-lg-3{
+  margin-top: 60px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer a .logo-footer{
+   color: fill white;
 }
